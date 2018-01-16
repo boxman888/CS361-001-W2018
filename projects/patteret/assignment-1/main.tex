@@ -11,7 +11,7 @@
 %% Useful packages
 \usepackage{amsmath}
 \usepackage{graphicx}
-\usepackage[colorinlistoftodos]{todonotes}
+%\usepackage[colorinlistoftodos]{todonotes}
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
 
 \title{Plant-Id}
@@ -31,18 +31,12 @@ If Plant-Id is trained to identify plant spices. Those who would benefit from th
 Do to this being a student project plant spices should be limited to the Corvallis area. This will help minimize some of the challenges in building this project. 
 \section{Decision tree}
 \subsection{What is it?}
-\begin{figure}
-\centering
-\includegraphics[width=0.4\textwidth]{Decision_Tree.jpg}
-\caption{\label{fig:Tree}Sourse: http://www.saedsayad.com}
-Should you go outside example
-\end{figure}
 A decision tree is a machine learning algorithm that asks a binary questions to reach a conclusion. It follows close to fundamental computer science notation of divide and conquer. Every question is binary allowing for the tree to sort through $2^N$ options, where N is the number of questions. For example 20 questions can sift through $2^{20}$ which is 1,048,576 options. Mapping these options creates a tree like structurer with the question being a parent node and the leafs being the yes or no response.
 \begin{enumerate}
 \centering
 \item Should you go outside? as seen in figure 1.
 \begin{itemize}
-  \centering
+\centering
   \item Program: Is it raining outside?
   \item User: Yes.
   \item Program: Is the wind strong?
